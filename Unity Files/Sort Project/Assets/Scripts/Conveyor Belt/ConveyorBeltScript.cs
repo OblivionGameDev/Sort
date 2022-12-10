@@ -9,6 +9,6 @@ public class ConveyorBeltScript : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     {
-        other.transform.position = Vector3.MoveTowards(other.transform.position, endPoint.position, speed * Time.deltaTime);
+        other.attachedRigidbody.MovePosition(other.transform.position + endPoint.position * speed * Time.deltaTime);
     }
 }
