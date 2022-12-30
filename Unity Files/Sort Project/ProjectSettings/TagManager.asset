@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Sphere
+  - Cube
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Objects
   - Water
   - UI
   - 
